@@ -12,3 +12,10 @@ Console.Write(String.Join(" ", textArray));
 Console.WriteLine();
 Console.WriteLine("----------------------------------------------------------------------------------------------");
 Console.WriteLine();
+for (int i = 0; i < textArray.Length; i++)
+{
+    if(textArray[i].Length <= 3)
+    {
+        count++;
+    }
+}
