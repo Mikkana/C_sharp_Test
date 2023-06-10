@@ -28,3 +28,4 @@ for(int i = 0; i < textArray.Length; i++)
         index++;
     }
 }
+Console.Write(String.Join(" ", shortWordsArray));
