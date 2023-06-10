@@ -19,3 +19,4 @@ for (int i = 0; i < textArray.Length; i++)
         count++;
     }
 }
+string[] shortWordsArray = new string[count];
