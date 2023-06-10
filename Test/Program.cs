@@ -20,3 +20,11 @@ for (int i = 0; i < textArray.Length; i++)
     }
 }
 string[] shortWordsArray = new string[count];
+for(int i = 0; i < textArray.Length; i++)
+{
+    if(textArray[i].Length <= 3)
+    {
+        shortWordsArray[index] = textArray[i];
+        index++;
+    }
+}
